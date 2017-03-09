@@ -76,7 +76,7 @@ module.exports = function(grunt) {
     'mochaTest'
   ]);
 
-  grunt.registerTask('build', ['test', 'concat', 'minify']);
+  grunt.registerTask('build', []);
 
   grunt.registerTask('upload', function(n) {
     if (grunt.option('prod')) {
